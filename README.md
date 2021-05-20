@@ -19,8 +19,8 @@ Requirement: 3 Paper (Green, Yellow, Blue) Install the Requirements: opencv
 ## Credits :-
 
 -> [OpenCV](https://opencv.org/) </br>
--> [NFS](https://www.ea.com/en-gb/games/need-for-speed)  </br>
--> [pykeys](https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game)  </br>
+-> [EA Sports for Need For Speed Most Wanted (2005)](https://www.ea.com/en-gb/games/need-for-speed)  </br>
+-> [directkeys.py](https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game)  </br>
 
 
 
