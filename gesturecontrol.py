@@ -3,7 +3,7 @@
 """
 Created on Tue Oct 20 20:42:01 2020
 @author: Ankit Vats
-@description: Game controlling with Fists in Navy blue gloves using openCV. Left Fist- Break Righ Fist- acceleration
+@description: Game controlling with Fists in Navy blue gloves using openCV. Left Fist- Break Right Fist- acceleration
 
 
 from imutils.video import VideoStream
