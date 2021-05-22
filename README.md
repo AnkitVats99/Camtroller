@@ -1,26 +1,39 @@
 # Camtroller
 
 ## Short Intro
-Playing games like Need for Speed Most Wanted (NFS) using OpenCV (NO Keyboard required). Paper acts as a controller. (Works with any racing games and like GTA Vice City (tested)).
+Playing games like Hill Climb Racing using OpenCV (NO Keyboard required) with Hand Gestures.
 
 ## How to use it?
-Requirement: 3 Paper (Green, Yellow, Blue) Install the Requirements: opencv
 
--> Clone the repository </br>
--> Start the game (Racing Game)</br>
--> Execute nfs.py file</br>
+* Clone the repository </br>
+* Start the game (Racing Game)</br>
+* Execute gesturecontrol.py file</br>
 
-## Paper Use :-
+## Controls :-
 
--> Green: Forward and angle </br>
--> Yellow: #Nitrous </br>
--> Blue: Brakes and backwards </br>
+* Right Hand Fist- Acceleration
+* Left Hand Fist- Break
+
+## Requirements :-
+
+* python 3.x
+* imutils
+* numpy
+* opencv-python
+
+## Description :- 
+
+Using OpenCV, the screen is divided in such a way that the bottom left region of the screeen is used for applying breaks, whereas bottom right region of the screen is used for acceleration. </br></br>
+
+When a navy blue circle(fists in navy blue gloves) is detected in any of the regions, corresponding key is given as input to the game from our program.</br>
+</br>
+NOTE: No machine learning model is used for detecting objects!!
 
 ## Credits :-
 
--> [OpenCV](https://opencv.org/) </br>
--> [EA Sports for Need For Speed Most Wanted (2005)](https://www.ea.com/en-gb/games/need-for-speed)  </br>
--> [directkeys.py](https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game)  </br>
+* [OpenCV](https://opencv.org/) </br>
+* [Hill Climb Racing](https://hillclimb-racing.com/)  </br>
+* [directkeys.py](https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game)  </br>
 
 
 
